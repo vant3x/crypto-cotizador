@@ -1,0 +1,64 @@
+body {
+  background: #136a8a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #06106b, rgb(173, 77, 175)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #06106b, rgb(173, 77, 175)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lato', sans-serif;
+
+  }
+header {
+  margin-top: 4rem;
+}
+h1 {
+    font-size: 34px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  }
+.m-t2 {
+  margin-top:20px;
+}
+form {
+    margin: 50px auto;
+}
+.contenido-principal {
+    margin: 50px auto;
+    background-color: white;
+    -webkit-box-shadow: -1px 20px 52px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 20px 52px -13px rgba(0,0,0,0.75);
+    box-shadow: -1px 20px 52px -13px rgba(0,0,0,0.75);
+}
+.mensajes {
+    color: white;
+}
+
+.btn {
+    width: 100%;
+}
+.btn-purplegradient {
+  background: linear-gradient(to right, #4b0361, rgb(182, 30, 129)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:white;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  border-radius: 2px;
+  /* transform: scale(1.2) */
+
+}
+.btn-purplegradient:active {
+  background: linear-gradient(to right, #3b024c, rgb(153, 19, 106)) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* transform: scale(1.2) */
+}
+
+.btn-purplegradient:hover {
+  background: linear-gradient(to right, #3f0252, rgb(160, 23, 112)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* transform: scale(1.2) */
+}
+
+.bg-purple {
+  background: linear-gradient(to left, #5e0e77e1, #ad4378fb) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.transition-3s {
+  transition: all 0.3s ease;
+}
